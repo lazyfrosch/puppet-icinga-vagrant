@@ -1,0 +1,8 @@
+---
+apt:
+  update:
+    frequency: daily
+icinga2::use_debmon_repo: true
+icingaweb2::install_method: package
+icingaweb2::manage_repo: true
+icingaweb2::pkg_repo_version: release
